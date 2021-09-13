@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina Wiśniewska</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="shortcut icon" href="./img/cherry.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    
+</head>
+
+
+<body class="box-border text-gray-600 font-mono relative bg-transparent" data-aos="fade-in">
+
+  <!-- NAWIGACJA -->
+  <nav class="z-50 sticky top-0 bg-purple-50 shadow opacity-90">
+    <div class="relative mx-auto py-2 px-4 flex flex-wrap w-full bg-white opacity-90">
+      <div>
+        <a href="#" rel="home">
+          <svg class="w-10 h-8 text-purple-600" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="w-full md:w-auto flex-grow flex items-center justify-center text-sm">  
+        <ul class="flex -mx-4 pt-4 sm:mx-0 sm:ml-auto sm:mt-0 sm:pt-0 ">
+            <li>
+              <a class="px-2 md:px-4 sm:px-1 py-1 sm:p-2 lg:px-4 hover:bg-pink-500 hover:text-white transition ease-out duration-700" href="#technologie" >Technologie</a>
+            </li>
+            <li>
+              <a class="px-2 md:px-4 py-1 sm:p-2 lg:px-4 hover:bg-pink-500 hover:text-white transition ease-out duration-700" href="#projekty" >Projekty</a>
+            </li>
+            <li>
+              <a class="px-2 md:px-4 py-1 sm:p-2 lg:px-4 hover:bg-pink-500 hover:text-white transition ease-out duration-700" href="#github" >GitHub</a>
+            </li>
+          <li>
+            <a class="px-2 md:px-4 py-1 sm:p-2 lg:px-4 hover:bg-pink-500 hover:text-white transition ease-out duration-700" href="#kontakt" >Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  <!-- ZDJECIE W TLE  -->
+  <div class="justify-center items-center fixed w-full min-h-screen">
+      <div class="absolute p-0 w-full h-1/2 bg-cover bg-bottom" style="background-image: url(./img/background.jpg)">
+      </div>
+  </div>
+
+
+
+    
+    <!-- SEKCJA GŁÓWNA -->
+    <section class="flex h-screen justify-center items-center bg-gray-50 pt-40 md:pt-2">
+      <div class="relative">
+            <!-- przejście kolorów  -->
+            <div class="absolute z-1 inset-0 bg-gradient-to-r from-pink-200 to-purple-300 shadow-md transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-md"> </div>
+
+            <div class="relative md:flex max-w-3xl z-10 bg-white px-2 md:p-8 lg:py-6 lg:px-12 rounded-md shadow-md ">
+                <div class="flex flex-col md:w-1/2  space-y-4 px-6 ">
+                    <div class="text-center md:text-left">
+                        <p class="text-md tracking-wide mt-4 md:mt-0">Cześć, nazywam się</p>
+                        <h1 class="text-4xl font-bold text-gray-800 tracking-wide">Paulina Wiśniewska</h1>
+                    </div>
+                    <div>
+                        <p class="text-center p-2 text-sm">
+                          <span id="text"></span>
+                        </p>
+                    </div>
+
+
+                  </div>
+                  
+                  <!-- zdjęcie  -->
+                  <div class="flex md:w-1/2 justify-center items-center ml-auto mr-auto py-3" >
+                    <img src="./img/zdj.jpg" alt=""
+                    class="animate-wiggle w-80 h-80 grid place-items-center rounded-full border-purple-100 border-8 shadow-lg ">
+                  </div>
+                  
+                </div>
+            <!-- strzałki w doł  -->
+            <div class="relative grid place-items-center pt-3 pb-1  text-2xl">
+              <a href="#technologie"><i class="animate-bounce fas fa-angle-double-down"></i></a>
+            </div>
+    </section>
+
+    <!-- SEKCJA TECHNOLOGIE  -->
+    <section class="min-h-screen bg-gradient-to-b from-gray-50 to-nude flex text-center justify-center pt-20 md:pt-0 " id="technologie"> 
+        <div class="text-center min-h-screen font-myFont text-4xl">
+          <h2 class="text-3xl md:text-5xl pt-32 pb-24 text-gray-600 animate-pulse">Technologie których się uczę</h2>
+          <div class="flex justify-center">
+              <div class="grid grid-cols-1 md:grid-cols-4 justify-items-center items-center">
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-32" src="./img/img_tech/html.png">
+                </div>
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-24" src="./img/img_tech/css.png">
+                </div>
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-28" src="./img/img_tech/javascript.png">
+                </div>
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-64" src="./img/img_tech/tailwind.png">
+                </div>
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-48" src="./img/img_tech/bootstrap.png">
+                </div>
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-28" src="./img/img_tech/git.png">
+                </div>
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-24" src="./img/img_tech/sass.png">
+                </div>
+                <div data-aos="zoom-in">
+                  <img class="transition duration-500 ease-in-out transform opacity-70 hover:-translate-y-1 hover:scale-110 hover:opacity-100 py-4 w-24" src="./img/img_tech/nodejs.png">
+                </div>
+              </div>
+            </div>
+        </div>   
+    </section>
+
+       
+    <!-- SEKCJA PROJEKTY -->
+    <section class="min-h-screen pt-8 pb-8 md:pb-32 bg-gradient-to-b from-nude to-purpl" id="projekty">
+      <div class="font-mono text-4xl">
+        <div class="px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="font-myFont text-6xl text-gray-900"> Moje projekty</h1>
+            <h2 class="font-mono text-sm text-gray-400 tracking-widest py-4">(Kliknij na projekt, aby zobaczyć)</h2>
+          </div>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4"> 
+  
+            <!-- PROJEKT 1 -->
+            <a href="https://wisniewskapaulina.github.io/gardenWebsite/" class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto opacity-60 hover:opacity-100 transition ease-out duration-700 ">
+              <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center cursor-pointer hover:shadow-2xl" style="background-image: url(./img/garden.JPG)">
+              </div>
+              <div class=" w-72 bg-white -mt-3 shadow-lg rounded-lg overflow-hidden px-5 pb-3 cursor-pointer">
+                <div class="inline-flex">
+                  <div class="h-4 w-4 m rounded-full m-1 bg-turqLight">
+                    <div class="h-2 w-2 rounded-full m-1 bg-turq " ></div>
+                  </div>
+                  <div class="text-sm">Tailwind CSS</div>
+                </div>
+                <div class="text-lg font-myFont">Strona domowa</div>
+              </div>
+            </a>
+         
+            <!-- PROJEKT 2  -->
+            <a href="https://wisniewskapaulina.github.io/weatherApp/" class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto opacity-50 hover:opacity-100 transition ease-out duration-700">
+              <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center cursor-pointer hover:shadow-2xl" style="background-image: url(./img/img_proj/weatherapp.JPG)">
+              </div>
+              <div class=" w-72 bg-white -mt-3 shadow-lg rounded-lg overflow-hidden px-5 pb-3 cursor-pointer">
+                <div class="inline-flex ">
+                  <div class="h-4 w-4 m rounded-full m-1 bg-yellow-100">
+                    <div class="h-2 w-2 rounded-full m-1 bg-yellow-500 " ></div>
+                  </div>
+                  <div class="text-sm"> JS</div>
+                </div>
+                <div class="text-lg font-myFont">Aplikacja pogodowa</div>
+              </div>
+            </a>
+         
+
+            <!-- PROJEKT 3 -->
+            <a href="https://wisniewskapaulina.github.io/jewelleryShop/" class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto opacity-50 hover:opacity-100 transition ease-out duration-700">
+              <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center cursor-pointer hover:shadow-2xl" style="background-image: url(./img/img_proj/shop.JPG)">
+              </div>
+              <div class=" w-72 bg-white -mt-3 shadow-lg rounded-lg overflow-hidden px-5 pb-3 cursor-pointer">
+                <div class="inline-flex ">
+                  <div class="h-4 w-4 m rounded-full m-1 bg-red-100">
+                    <div class="h-2 w-2 rounded-full m-1 bg-red-500"></div>
+                  </div>
+                  <div class="text-sm">HTML, CSS</div>
+                </div>
+                <div class="text-lg font-myFont">Sklep</div>
+              </div>
+            </a>
+         
+
+            <!-- PROJEKT 4 -->
+            <a href="https://wisniewskapaulina.github.io/quizApp/" class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto opacity-60 hover:opacity-100 transition ease-out duration-700">
+              <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center cursor-pointer hover:shadow-2xl" style="background-image: url(./img/img_proj/quizApp.JPG)">
+              </div>
+              <div class=" w-72 bg-white -mt-3 shadow-lg rounded-lg overflow-hidden px-5 pb-3 cursor-pointer">
+                <div class="inline-flex ">
+                  <div class="h-4 w-4 m rounded-full m-1 bg-yellow-100">
+                    <div class="h-2 w-2 rounded-full m-1 bg-yellow-500 " ></div>
+                  </div>
+                  <div class="text-sm"> JS</div>
+                </div>
+                <div class="text-lg  font-myFont">Quiz</div>
+              </div>
+            </a>
+         
+
+            <!-- PROJEKT 5  -->
+            <a href="https://wisniewskapaulina.github.io/mealGenerator/" class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto opacity-50 hover:opacity-100 transition ease-out duration-700"">
+              <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center cursor-pointer hover:shadow-2xl" style="background-image: url(./img/img_proj/randomMeal.JPG)">
+              </div>
+              <div class=" w-72 bg-white -mt-3 shadow-lg rounded-lg overflow-hidden px-5 pb-3 cursor-pointer">
+                <div class="inline-flex ">
+                  <div class="h-4 w-4 m rounded-full m-1 bg-yellow-100">
+                    <div class="h-2 w-2 rounded-full m-1 bg-yellow-500 " ></div>
+                  </div>
+                  <div class="text-sm"> JS</div>
+                </div>
+                <div class="text-lg font-myFont">Generator przepisów</div>
+              </div>
+            </a>
+            
+
+            <!-- PROJEKT 6  -->
+            <a href="https://wisniewskapaulina.github.io/countdownTimer/" class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto opacity-50 hover:opacity-100 transition ease-out duration-700">
+              <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center cursor-pointer hover:shadow-2xl" style="background-image: url(./img/img_proj/timer.JPG)">
+              </div>
+              <div class=" w-72 bg-white -mt-3 shadow-lg rounded-lg overflow-hidden px-5 pb-3 cursor-pointer">
+                <div class="inline-flex ">
+                  <div class="h-4 w-4 m rounded-full m-1 bg-yellow-100">
+                    <div class="h-2 w-2 rounded-full m-1 bg-yellow-500" ></div>
+                  </div>
+                  <div class="text-sm"> JS</div>
+                </div>
+                <div class="text-lg font-myFont ">Odliczanie czasu</div>
+              </div>
+            </a>        
+ 
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SEKCJA GITHUB  -->
+    <section class="relative min-h-screen py-16 bg-gradient-to-b from-purpl to-purple-300" id="github">
+          <div class="items-center flex flex-wrap mx-10 md:mx-0">
+            <div class="md:w-4/12 ml-auto mr-auto px-4">
+              <img alt="mapa" class="text-center rounded-lg shadow-lg" src="./img/resume.jpg">
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto md:px-4" data-aos="fade-up">
+              <div class="md:pr-12 grid place-items-center">
+                <div
+                  class="text-black p-3 m-8 inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-200">
+                  <i class="fas fa-id-badge text-3xl"></i>
+                </div>
+                <h3 class="text-3xl font-semibold"></h3>
+                <p class="mt-4 text-md md:text-lg leading-relaxed text-gray-500 md:p-4 text-justify flex justify-center">
+                  Jestem otwartą, pracowitą osobą, a moim głównym celem zawodowym jest znalezienie pracy, która da mi możliwość pogłębiania i doskonalenia wcześniej nabytych umiejętności programistycznych, angażowania się w ciekawe i kreatywne projekty oraz podnoszenia moich kwalifikacji Front-Endowych. 
+                </p>
+                
+                  <div class="flex text-center justify-center">
+                    <a href="https://github.com/wisniewskapaulina" class="rounded-full m-8 py-3 px-8 uppercase font-bold cursor-pointer tracking-wider text-pink-500 border-pink-500 border-2 hover:bg-pink-500 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-lg">Kliknij i zobacz mój profil na github <i class="fab fa-github"></i> </a>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+      <!-- SEKCJA KONTAKT -->
+      <section class="flex w-full min-h-screen justify-center items-center bg-gradient-to-b from-purple-300 to-purple-400 p-4 md:p-12" id="kontakt" >
+          <div class="flex flex-col md:flex-row space-y-6 bg-gray-500 w-full max-w-4xl px-4 py-6 md:p-8 rounded-xl shadow-lg text-gray-200 justify-center items-center ">
+              <div class="w-full md:w-1/2"> 
+                <div class="flex flex-col space-y-4 justify-between">
+                    <h1 class="font-myFont font-bold tracking-wider text-3xl animate-pulse">
+                        Skontaktuj się ze mną!
+                    </h1>
+                    <p class="p-1 md:p-2 text-sm">
+                        Jeśli chcesz zatrudnić mnie w swojej firmie, skontaktuj się ze mną emailowo, telefonicznie, lub poprzez formularz znajdujący się obok.
+                    </p>
+                </div>
+                <div class="py-6">
+                  <i class="fas fa-phone"></i>
+                  <span class="text-xs md:text-sm">+48 73x 9x8 9xx</span>
+                </div>
+                <div>
+                  <i class="fas fa-envelope-square"></i>
+                  <span class="text-xs md:text-sm">p.wisniewska285@gmail.com</span>
+                </div>
+              </div>
+              <div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-gray-700">
+                    <form action="https://formsubmit.co/p.wisniewska285@gmail.com" method="POST" class="flex flex-col text-xs md:text-sm">
+                           <div>
+                              <label for="" class="text-sm">Imię</label>
+                           </div>
+                          <div>
+                              <input type="text" placeholder="Imię" name="name" required class="ring-1 ring-gray-300 w-full rounded-md p-4">
+                          </div>
+                           <div class="mt-4">
+                              <label for="">Email</label>
+                           </div>
+                          <div>
+                              <input type="text" placeholder="Email" name="email" required class="ring-1 ring-gray-300 w-full rounded-md p-4">
+                          </div>
+                           <div class="mt-4">
+                              <label for=""">Wiadomość</label>
+                           </div>
+                          <div>
+                              <textarea name="" id="" cols="30" rows="8" placeholder="Wiadomość" class="ring-1 ring-gray-300 w-full rounded-md p-4"></textarea>
+                          </div>
+                          <div class="flex justify-center">
+                            <button type="submit" class="rounded-full py-3 px-4 mt-3 uppercase font-bold cursor-pointer tracking-wider text-pink-500 border-pink-500 border-2 hover:bg-pink-500 hover:text-white transition ease-out duration-700">Wyślij</button>
+                        </div>
+                    </form>                    
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- STOPKA -->
+      <footer class="relative bg-purple-400 w-full">
+        <hr class="border-gray-500" />
+
+        <div class="text-center">
+          <div class="text-sm text-white font-light p-3">
+            Copyright © 2021 by Paulina Wiśniewska
+          </div>
+        </div>
+      </footer> 
+    
+
+
+<!-- animation on scroll  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+<script src="./main.js"></script>
+
+</body>
+
+</html>
